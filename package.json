@@ -1,0 +1,18 @@
+{
+  "name": "tailwind-starter",
+  "version": "1.0.0",
+  "description": "Tailwind CSS 4.1.7 starter with Vite and multi-html support",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.7",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.7",
+    "vite": "^5.4.19"
+  }
+}
