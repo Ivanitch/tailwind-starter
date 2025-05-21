@@ -1,1 +1,1 @@
-console.log("Tailwind Starter — custom JS loaded");
+console.log("Tailwind Starter — custom JS loaded!");

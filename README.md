@@ -1,58 +1,62 @@
-# Tailwind Starter
+<p align="center">
+  <a href="https://tailwindcss.com" target="_blank">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tailwindlabs/tailwindcss/HEAD/.github/logo-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tailwindlabs/tailwindcss/HEAD/.github/logo-light.svg">
+      <img alt="Tailwind CSS" src="https://raw.githubusercontent.com/tailwindlabs/tailwindcss/HEAD/.github/logo-light.svg" width="350" height="70" style="max-width: 100%;">
+    </picture>
+  </a>
+</p>
 
-Простой стартовый шаблон с Tailwind CSS 4.1.7 и Vite.
+<h1 align="center">TailwindCSS Starter</h1>
 
-## 🚀 Быстрый старт
+<p align="center">
+ A simple starter template with <strong>Tailwind CSS</strong> and <strong>Vite</strong>.
+</p>
 
-1. Установите зависимости:
-   ```bash
+---
+
+**Quick start** for Tailwind CSS projects. This template includes a pre-configured build with **PostCSS**, **Autoprefixer**, and a simple file structure. Multiple HTML files. Ready for `Laravel` integration (_Breeze_, _Jetstream_, etc.)
+
+| Component    | Version |
+| ------------ | ------- |
+| TailwindCSS  | `4.1`   |
+| Autoprefixer | `10.4`  |
+| PostCSS      | `8.5`   |
+| Vite         | `5.4`   |
+
+
+
+## 🚀 Quick start
+
+1. Download the archive and unzip it into the project directory:
+    ```bash
+    wget https://github.com/Ivanitch/tailwind-starter/archive/refs/heads/master.zip -O tailwind-starter.zip && unzip tailwind-starter.zip
+    ```
+
+2. Go to the directory with the project:
+    ```bash
+   cd tailwind-starter-master
+    ```
+
+3. Install dependencies:
+    ```bash
    npm install
-   ```
+    ```
 
-2. Запустите сервер разработки:
+4. Start the development server:
    ```bash
    npm run dev
    ```
 
-3. Откройте в браузере:
-   ```
+5. Open in browser:
+   ```bash
    http://localhost:5173
-
-   # или
-   http://localhost:5500
-
    ```
 
-## 📦 Сборка на продакшн
+## 📦 Assembly for production
 
 ```bash
 npm run build
 ```
-
-Скомпилированные файлы появятся в папке `dist/`.
-
-## 📁 Структура проекта
-
-```
-.
-├── css/              # Кастомные стили
-│   └── styles.css
-├── js/               # Кастомный JavaScript
-│   └── scripts.js
-├── index.html        # Главная страница
-├── about.html        # Доп. страница
-├── contact.html      # Ещё одна
-├── tailwind.config.js
-├── postcss.config.js
-├── vite.config.js
-├── .vscode/          # Настройки VS Code
-│   └── settings.json
-```
-
-## ✅ Возможности
-
-- Tailwind v4.1.7
-- Vite
-- Несколько HTML-файлов (`/**/*.html`)
-- IntelliSense поддержка в VS Code
-- Подготовлено для интеграции в Laravel (Breeze, Jetstream и др.)
+The compiled files will appear in the `dist/` directory. This directory will appear automatically.
